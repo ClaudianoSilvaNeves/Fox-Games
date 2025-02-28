@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>EndPoint</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>foxgames</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter="foxgames/JVM">JVM</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="foxgames::com.eu.foxgames.twitch.model/EndPoint///PointingToDeclaration//-1106901046">
+  <div class="breadcrumbs"><a href="../../../index.html">foxgames</a><span class="delimiter">/</span><a href="../index.html">com.eu.foxgames.twitch.model</a><span class="delimiter">/</span><span class="current">EndPoint</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>End</span><wbr></wbr><span><span>Point</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><span class="token keyword">enum </span><a href="index.html">EndPoint</a> : <a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-enum/index.html">Enum</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">EndPoint</a><span class="token operator">&gt; </span></div><p class="paragraph">Enum class representing different API endpoints for querying game-related data from Twitch.</p><p class="paragraph">Each value in this enum corresponds to a specific endpoint in the Twitch API that deals with different aspects of game data, such as game ratings, covers, platforms, genres, and much more. The <code class="lang-kotlin">url()</code> function converts the enum constant into its lowercase string representation, which can be used to build a URL for making API requests.</p></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button><button class="section-tab" data-togglable="ENTRY">Entries</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="ENTRY">
+        <h2 class="">Entries</h2>
+        <div class="table"><a data-name="-197581497%2FClasslikes%2F-1106901046" anchor-label="AGE_RATINGS" id="-197581497%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-g-e_-r-a-t-i-n-g-s/index.html">AGE_RATINGS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-197581497%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-a-g-e_-r-a-t-i-n-g-s/index.html">AGE_RATINGS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1425792048%2FClasslikes%2F-1106901046" anchor-label="AGE_RATING_CONTENT_DESCRIPTIONS" id="1425792048%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-g-e_-r-a-t-i-n-g_-c-o-n-t-e-n-t_-d-e-s-c-r-i-p-t-i-o-n-s/index.html">AGE_RATING_CONTENT_DESCRIPTIONS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1425792048%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-a-g-e_-r-a-t-i-n-g_-c-o-n-t-e-n-t_-d-e-s-c-r-i-p-t-i-o-n-s/index.html">AGE_RATING_CONTENT_DESCRIPTIONS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-271662969%2FClasslikes%2F-1106901046" anchor-label="ALTERNATIVE_NAMES" id="-271662969%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-l-t-e-r-n-a-t-i-v-e_-n-a-m-e-s/index.html">ALTERNATIVE_NAMES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-271662969%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-a-l-t-e-r-n-a-t-i-v-e_-n-a-m-e-s/index.html">ALTERNATIVE_NAMES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-555987402%2FClasslikes%2F-1106901046" anchor-label="ARTWORKS" id="-555987402%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-a-r-t-w-o-r-k-s/index.html">ARTWORKS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-555987402%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-a-r-t-w-o-r-k-s/index.html">ARTWORKS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="614731681%2FClasslikes%2F-1106901046" anchor-label="CHARACTERS" id="614731681%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-h-a-r-a-c-t-e-r-s/index.html">CHARACTERS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="614731681%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-h-a-r-a-c-t-e-r-s/index.html">CHARACTERS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-673264940%2FClasslikes%2F-1106901046" anchor-label="CHARACTER_MUG_SHOTS" id="-673264940%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-h-a-r-a-c-t-e-r_-m-u-g_-s-h-o-t-s/index.html">CHARACTER_MUG_SHOTS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-673264940%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-h-a-r-a-c-t-e-r_-m-u-g_-s-h-o-t-s/index.html">CHARACTER_MUG_SHOTS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="31334278%2FClasslikes%2F-1106901046" anchor-label="COLLECTIONS" id="31334278%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-l-l-e-c-t-i-o-n-s/index.html">COLLECTIONS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="31334278%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-l-l-e-c-t-i-o-n-s/index.html">COLLECTIONS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1086882676%2FClasslikes%2F-1106901046" anchor-label="COMPANIES" id="-1086882676%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-m-p-a-n-i-e-s/index.html">COMPANIES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1086882676%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-m-p-a-n-i-e-s/index.html">COMPANIES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1828006959%2FClasslikes%2F-1106901046" anchor-label="COMPANY_WEBSITES" id="-1828006959%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-m-p-a-n-y_-w-e-b-s-i-t-e-s/index.html">COMPANY_WEBSITES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1828006959%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-m-p-a-n-y_-w-e-b-s-i-t-e-s/index.html">COMPANY_WEBSITES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="933297335%2FClasslikes%2F-1106901046" anchor-label="COMPANY_LOGOS" id="933297335%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-m-p-a-n-y_-l-o-g-o-s/index.html">COMPANY_LOGOS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="933297335%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-m-p-a-n-y_-l-o-g-o-s/index.html">COMPANY_LOGOS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1697193683%2FClasslikes%2F-1106901046" anchor-label="COVERS" id="1697193683%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-v-e-r-s/index.html">COVERS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1697193683%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-v-e-r-s/index.html">COVERS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1404337756%2FClasslikes%2F-1106901046" anchor-label="EXTERNAL_GAMES" id="-1404337756%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-e-x-t-e-r-n-a-l_-g-a-m-e-s/index.html">EXTERNAL_GAMES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1404337756%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-e-x-t-e-r-n-a-l_-g-a-m-e-s/index.html">EXTERNAL_GAMES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-112691027%2FClasslikes%2F-1106901046" anchor-label="FRANCHISES" id="-112691027%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-f-r-a-n-c-h-i-s-e-s/index.html">FRANCHISES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-112691027%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-f-r-a-n-c-h-i-s-e-s/index.html">FRANCHISES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1799564658%2FClasslikes%2F-1106901046" anchor-label="GAMES" id="1799564658%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e-s/index.html">GAMES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1799564658%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e-s/index.html">GAMES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-963531269%2FClasslikes%2F-1106901046" anchor-label="GAME_ENGINES" id="-963531269%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e_-e-n-g-i-n-e-s/index.html">GAME_ENGINES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-963531269%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e_-e-n-g-i-n-e-s/index.html">GAME_ENGINES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1176684553%2FClasslikes%2F-1106901046" anchor-label="GAME_ENGINE_LOGOS" id="1176684553%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e_-e-n-g-i-n-e_-l-o-g-o-s/index.html">GAME_ENGINE_LOGOS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1176684553%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e_-e-n-g-i-n-e_-l-o-g-o-s/index.html">GAME_ENGINE_LOGOS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1978614204%2FClasslikes%2F-1106901046" anchor-label="GAME_LOCALIZATIONS" id="-1978614204%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e_-l-o-c-a-l-i-z-a-t-i-o-n-s/index.html">GAME_LOCALIZATIONS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1978614204%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e_-l-o-c-a-l-i-z-a-t-i-o-n-s/index.html">GAME_LOCALIZATIONS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1566967802%2FClasslikes%2F-1106901046" anchor-label="GAME_MODES" id="1566967802%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e_-m-o-d-e-s/index.html">GAME_MODES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1566967802%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e_-m-o-d-e-s/index.html">GAME_MODES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="843128793%2FClasslikes%2F-1106901046" anchor-label="GAME_VERSIONS" id="843128793%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e_-v-e-r-s-i-o-n-s/index.html">GAME_VERSIONS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="843128793%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e_-v-e-r-s-i-o-n-s/index.html">GAME_VERSIONS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1628372638%2FClasslikes%2F-1106901046" anchor-label="GAME_VERSION_FEATURES" id="-1628372638%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e_-v-e-r-s-i-o-n_-f-e-a-t-u-r-e-s/index.html">GAME_VERSION_FEATURES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1628372638%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e_-v-e-r-s-i-o-n_-f-e-a-t-u-r-e-s/index.html">GAME_VERSION_FEATURES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-789669232%2FClasslikes%2F-1106901046" anchor-label="GAME_VERSION_FEATURE_VALUES" id="-789669232%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e_-v-e-r-s-i-o-n_-f-e-a-t-u-r-e_-v-a-l-u-e-s/index.html">GAME_VERSION_FEATURE_VALUES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-789669232%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e_-v-e-r-s-i-o-n_-f-e-a-t-u-r-e_-v-a-l-u-e-s/index.html">GAME_VERSION_FEATURE_VALUES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1799163478%2FClasslikes%2F-1106901046" anchor-label="GAME_VIDEOS" id="1799163478%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-a-m-e_-v-i-d-e-o-s/index.html">GAME_VIDEOS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1799163478%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-a-m-e_-v-i-d-e-o-s/index.html">GAME_VIDEOS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-62767225%2FClasslikes%2F-1106901046" anchor-label="GENRES" id="-62767225%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-g-e-n-r-e-s/index.html">GENRES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-62767225%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-g-e-n-r-e-s/index.html">GENRES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="911200058%2FClasslikes%2F-1106901046" anchor-label="INVOLVED_COMPANIES" id="911200058%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-i-n-v-o-l-v-e-d_-c-o-m-p-a-n-i-e-s/index.html">INVOLVED_COMPANIES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="911200058%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-i-n-v-o-l-v-e-d_-c-o-m-p-a-n-i-e-s/index.html">INVOLVED_COMPANIES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="352961953%2FClasslikes%2F-1106901046" anchor-label="KEYWORDS" id="352961953%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-k-e-y-w-o-r-d-s/index.html">KEYWORDS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="352961953%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-k-e-y-w-o-r-d-s/index.html">KEYWORDS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2066611508%2FClasslikes%2F-1106901046" anchor-label="LANGUAGES" id="-2066611508%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-l-a-n-g-u-a-g-e-s/index.html">LANGUAGES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2066611508%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-l-a-n-g-u-a-g-e-s/index.html">LANGUAGES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2029171364%2FClasslikes%2F-1106901046" anchor-label="LANGUAGE_SUPPORTS" id="-2029171364%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-l-a-n-g-u-a-g-e_-s-u-p-p-o-r-t-s/index.html">LANGUAGE_SUPPORTS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2029171364%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-l-a-n-g-u-a-g-e_-s-u-p-p-o-r-t-s/index.html">LANGUAGE_SUPPORTS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1981557287%2FClasslikes%2F-1106901046" anchor-label="LANGUAGE_SUPPORT_TYPES" id="-1981557287%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-l-a-n-g-u-a-g-e_-s-u-p-p-o-r-t_-t-y-p-e-s/index.html">LANGUAGE_SUPPORT_TYPES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1981557287%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-l-a-n-g-u-a-g-e_-s-u-p-p-o-r-t_-t-y-p-e-s/index.html">LANGUAGE_SUPPORT_TYPES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-500594276%2FClasslikes%2F-1106901046" anchor-label="MULTIPLAYER_MODES" id="-500594276%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-m-u-l-t-i-p-l-a-y-e-r_-m-o-d-e-s/index.html">MULTIPLAYER_MODES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-500594276%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-m-u-l-t-i-p-l-a-y-e-r_-m-o-d-e-s/index.html">MULTIPLAYER_MODES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-948089263%2FClasslikes%2F-1106901046" anchor-label="PLATFORMS" id="-948089263%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-t-f-o-r-m-s/index.html">PLATFORMS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-948089263%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-l-a-t-f-o-r-m-s/index.html">PLATFORMS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1170477709%2FClasslikes%2F-1106901046" anchor-label="PLATFORM_LOGOS" id="-1170477709%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-t-f-o-r-m_-l-o-g-o-s/index.html">PLATFORM_LOGOS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1170477709%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-l-a-t-f-o-r-m_-l-o-g-o-s/index.html">PLATFORM_LOGOS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1777856952%2FClasslikes%2F-1106901046" anchor-label="PLATFORM_VERSIONS" id="1777856952%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-t-f-o-r-m_-v-e-r-s-i-o-n-s/index.html">PLATFORM_VERSIONS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1777856952%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-l-a-t-f-o-r-m_-v-e-r-s-i-o-n-s/index.html">PLATFORM_VERSIONS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="881198303%2FClasslikes%2F-1106901046" anchor-label="PLATFORM_VERSION_COMPANIES" id="881198303%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-t-f-o-r-m_-v-e-r-s-i-o-n_-c-o-m-p-a-n-i-e-s/index.html">PLATFORM_VERSION_COMPANIES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="881198303%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-l-a-t-f-o-r-m_-v-e-r-s-i-o-n_-c-o-m-p-a-n-i-e-s/index.html">PLATFORM_VERSION_COMPANIES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2034379855%2FClasslikes%2F-1106901046" anchor-label="PLATFORM_VERSION_RELEASE_DATES" id="-2034379855%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-t-f-o-r-m_-v-e-r-s-i-o-n_-r-e-l-e-a-s-e_-d-a-t-e-s/index.html">PLATFORM_VERSION_RELEASE_DATES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2034379855%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-l-a-t-f-o-r-m_-v-e-r-s-i-o-n_-r-e-l-e-a-s-e_-d-a-t-e-s/index.html">PLATFORM_VERSION_RELEASE_DATES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1067407765%2FClasslikes%2F-1106901046" anchor-label="PLATFORM_WEBSITES" id="1067407765%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-t-f-o-r-m_-w-e-b-s-i-t-e-s/index.html">PLATFORM_WEBSITES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1067407765%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-l-a-t-f-o-r-m_-w-e-b-s-i-t-e-s/index.html">PLATFORM_WEBSITES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="2016368486%2FClasslikes%2F-1106901046" anchor-label="PLAYER_PERSPECTIVES" id="2016368486%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-y-e-r_-p-e-r-s-p-e-c-t-i-v-e-s/index.html">PLAYER_PERSPECTIVES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2016368486%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-l-a-y-e-r_-p-e-r-s-p-e-c-t-i-v-e-s/index.html">PLAYER_PERSPECTIVES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1141189665%2FClasslikes%2F-1106901046" anchor-label="PLATFORM_FAMILIES" id="-1141189665%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-l-a-t-f-o-r-m_-f-a-m-i-l-i-e-s/index.html">PLATFORM_FAMILIES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1141189665%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-l-a-t-f-o-r-m_-f-a-m-i-l-i-e-s/index.html">PLATFORM_FAMILIES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1549810960%2FClasslikes%2F-1106901046" anchor-label="REGIONS" id="-1549810960%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-r-e-g-i-o-n-s/index.html">REGIONS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1549810960%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-r-e-g-i-o-n-s/index.html">REGIONS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-413029154%2FClasslikes%2F-1106901046" anchor-label="RELEASE_DATES" id="-413029154%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-r-e-l-e-a-s-e_-d-a-t-e-s/index.html">RELEASE_DATES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-413029154%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-r-e-l-e-a-s-e_-d-a-t-e-s/index.html">RELEASE_DATES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-881799234%2FClasslikes%2F-1106901046" anchor-label="SCREENSHOTS" id="-881799234%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-c-r-e-e-n-s-h-o-t-s/index.html">SCREENSHOTS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-881799234%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-s-c-r-e-e-n-s-h-o-t-s/index.html">SCREENSHOTS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="256160735%2FClasslikes%2F-1106901046" anchor-label="SEARCH" id="256160735%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-s-e-a-r-c-h/index.html">SEARCH</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="256160735%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-s-e-a-r-c-h/index.html">SEARCH</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1818324351%2FClasslikes%2F-1106901046" anchor-label="THEMES" id="-1818324351%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-t-h-e-m-e-s/index.html">THEMES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1818324351%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-t-h-e-m-e-s/index.html">THEMES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1964374865%2FClasslikes%2F-1106901046" anchor-label="WEBSITES" id="-1964374865%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-w-e-b-s-i-t-e-s/index.html">WEBSITES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1964374865%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-w-e-b-s-i-t-e-s/index.html">WEBSITES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="226510736%2FClasslikes%2F-1106901046" anchor-label="EVENTS" id="226510736%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-e-v-e-n-t-s/index.html">EVENTS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="226510736%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-e-v-e-n-t-s/index.html">EVENTS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="934142868%2FClasslikes%2F-1106901046" anchor-label="EVENT_LOGOS" id="934142868%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-e-v-e-n-t_-l-o-g-o-s/index.html">EVENT_LOGOS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="934142868%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-e-v-e-n-t_-l-o-g-o-s/index.html">EVENT_LOGOS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="1156340705%2FClasslikes%2F-1106901046" anchor-label="EVENT_NETWORKS" id="1156340705%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-e-v-e-n-t_-n-e-t-w-o-r-k-s/index.html">EVENT_NETWORKS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1156340705%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-e-v-e-n-t_-n-e-t-w-o-r-k-s/index.html">EVENT_NETWORKS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="910819961%2FClasslikes%2F-1106901046" anchor-label="NETWORK_TYPES" id="910819961%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-n-e-t-w-o-r-k_-t-y-p-e-s/index.html">NETWORK_TYPES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="910819961%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-n-e-t-w-o-r-k_-t-y-p-e-s/index.html">NETWORK_TYPES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-2091812371%2FClasslikes%2F-1106901046" anchor-label="COLLECTION_RELATIONS" id="-2091812371%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-l-l-e-c-t-i-o-n_-r-e-l-a-t-i-o-n-s/index.html">COLLECTION_RELATIONS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-2091812371%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-l-l-e-c-t-i-o-n_-r-e-l-a-t-i-o-n-s/index.html">COLLECTION_RELATIONS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1530274840%2FClasslikes%2F-1106901046" anchor-label="COLLECTION_RELATION_TYPES" id="-1530274840%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-l-l-e-c-t-i-o-n_-r-e-l-a-t-i-o-n_-t-y-p-e-s/index.html">COLLECTION_RELATION_TYPES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1530274840%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-l-l-e-c-t-i-o-n_-r-e-l-a-t-i-o-n_-t-y-p-e-s/index.html">COLLECTION_RELATION_TYPES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-227422737%2FClasslikes%2F-1106901046" anchor-label="COLLECTION_TYPES" id="-227422737%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-l-l-e-c-t-i-o-n_-t-y-p-e-s/index.html">COLLECTION_TYPES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-227422737%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-l-l-e-c-t-i-o-n_-t-y-p-e-s/index.html">COLLECTION_TYPES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="216155219%2FClasslikes%2F-1106901046" anchor-label="COLLECTION_MEMBERSHIPS" id="216155219%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-l-l-e-c-t-i-o-n_-m-e-m-b-e-r-s-h-i-p-s/index.html">COLLECTION_MEMBERSHIPS</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="216155219%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-l-l-e-c-t-i-o-n_-m-e-m-b-e-r-s-h-i-p-s/index.html">COLLECTION_MEMBERSHIPS</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-164257470%2FClasslikes%2F-1106901046" anchor-label="COLLECTION_MEMBERSHIP_TYPES" id="-164257470%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-c-o-l-l-e-c-t-i-o-n_-m-e-m-b-e-r-s-h-i-p_-t-y-p-e-s/index.html">COLLECTION_MEMBERSHIP_TYPES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-164257470%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-c-o-l-l-e-c-t-i-o-n_-m-e-m-b-e-r-s-h-i-p_-t-y-p-e-s/index.html">COLLECTION_MEMBERSHIP_TYPES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1644718330%2FClasslikes%2F-1106901046" anchor-label="POPULARITY_TYPES" id="-1644718330%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-o-p-u-l-a-r-i-t-y_-t-y-p-e-s/index.html">POPULARITY_TYPES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1644718330%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-o-p-u-l-a-r-i-t-y_-t-y-p-e-s/index.html">POPULARITY_TYPES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1834090041%2FClasslikes%2F-1106901046" anchor-label="POPULARITY_PRIMITIVES" id="-1834090041%2FClasslikes%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-togglable="ENTRY" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-p-o-p-u-l-a-r-i-t-y_-p-r-i-m-i-t-i-v-e-s/index.html">POPULARITY_PRIMITIVES</a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1834090041%2FClasslikes%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><div class="block"><a href="-p-o-p-u-l-a-r-i-t-y_-p-r-i-m-i-t-i-v-e-s/index.html">POPULARITY_PRIMITIVES</a></div></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="PROPERTY">
+        <h2 class="">Properties</h2>
+        <div class="table"><a data-name="-372974862%2FProperties%2F-1106901046" anchor-label="name" id="-372974862%2FProperties%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-sort/-d-e-s-c-e-n-d-i-n-g/index.html#-372974862%2FProperties%2F-1106901046"><span><span>name</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-372974862%2FProperties%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="../-sort/-d-e-s-c-e-n-d-i-n-g/index.html#-372974862%2FProperties%2F-1106901046">name</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-739389684%2FProperties%2F-1106901046" anchor-label="ordinal" id="-739389684%2FProperties%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="../-sort/-d-e-s-c-e-n-d-i-n-g/index.html#-739389684%2FProperties%2F-1106901046"><span><span>ordinal</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-739389684%2FProperties%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">val </span><a href="../-sort/-d-e-s-c-e-n-d-i-n-g/index.html#-739389684%2FProperties%2F-1106901046">ordinal</a><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-int/index.html">Int</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="1603925330%2FFunctions%2F-1106901046" anchor-label="url" id="1603925330%2FFunctions%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="url.html"><span><span>url</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="1603925330%2FFunctions%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="url.html"><span class="token function">url</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></div><div class="brief "><p class="paragraph">Converts the enum constant name to its lowercase string representation. This string is used to create the URL for making API requests to Twitch.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="817196523%2FFunctions%2F-1106901046" anchor-label="valueOf" id="817196523%2FFunctions%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="value-of.html"><span>value</span><wbr></wbr><span><span>Of</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="817196523%2FFunctions%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="value-of.html"><span class="token function">valueOf</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">value<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="index.html">EndPoint</a></div><div class="brief "><p class="paragraph">Returns the enum constant of this type with the specified name. The string must match exactly an identifier used to declare an enum constant in this type. (Extraneous whitespace characters are not permitted.)</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="612442679%2FFunctions%2F-1106901046" anchor-label="values" id="612442679%2FFunctions%2F-1106901046" data-filterable-set="foxgames/JVM"></a>
+          <div class="table-row" data-filterable-current="foxgames/JVM" data-filterable-set="foxgames/JVM">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="values.html"><span><span>values</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="612442679%2FFunctions%2F-1106901046"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable="foxgames/JVM"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="values.html"><span class="token function">values</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin-stdlib/kotlin/-array/index.html">Array</a><span class="token operator">&lt;</span><span class="token keyword"></span><a href="index.html">EndPoint</a><span class="token operator">&gt;</span></div><div class="brief "><p class="paragraph">Returns an array containing the constants of this enum type, in the order they're declared.</p></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>© 2025 Copyright</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>
